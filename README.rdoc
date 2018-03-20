@@ -1,28 +1,47 @@
-== README
+== SAARTHI Backend APP
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Tourists visit Rajasthan from not only India but also abroad, so it is necessary to have an assistance for them which can guide them what places to visit according to the time they have so that they can utilize there time and stay at Rajasthan to its best. 
+Tourists face a lot of problems while identifying the places to visit in their limited time since Rajasthan is famous for its numerous historical forts, palaces, art and culture. 
+Due to such diversity, people get confused on what to visit first and this often leads to mismanagement of time and tourists miss out on places that might have interested them.
+Due to this the we fail to tap the profits that could have been earned.
+So, our proposal to the above problem, is an app that takes into account the users interests and preferences and curates the perfect and efficient travel experience for them.
 
-Things you may want to cover:
+App workflow:
 
-* Ruby version
+https://user-images.githubusercontent.com/17237680/37664983-483367ca-2c82-11e8-82b7-5c9cf53dbe92.png
 
-* System dependencies
+Factors considered:
 
-* Configuration
+* Current location
+* Duration of stay
+* distance of nearby tourist spots
+* effective time take to reach the spot considering the current traffic
+* user reviews/ratings
+* average time to be spent at the destination
 
-* Database creation
+Features included in the app:
 
-* Database initialization
+* Provides an effective itinerary that helps the user to make the most out of the trip to rajasthan.
 
-* How to run the test suite
+* Provides third party integrations like uber cab booking, hotel reservations.
 
-* Services (job queues, cache servers, search engines, etc.)
+Backend API structure:
 
-* Deployment instructions
+https://user-images.githubusercontent.com/17237680/37662621-74e53bc2-2c7d-11e8-989f-f6cab3dbc29e.png
 
-* ...
+Third party API's used:
+
+* Google map API
+* Uber API
+* Google distance API
+
+Android App:
+
+https://user-images.githubusercontent.com/17237680/37664584-99f093fe-2c81-11e8-8d81-a2a133c5df01.png
+
+Github url - https://github.com/manav-mj/Saarthi-RJHack
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+
+To run the backend server:
+<tt>rails server</tt>.
