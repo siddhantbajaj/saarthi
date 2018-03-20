@@ -12,8 +12,8 @@ https://user-images.githubusercontent.com/17237680/37664983-483367ca-2c82-11e8-8
 
 Factors considered:
 
-* Current location
-* Duration of stay
+* current location
+* duration of stay
 * distance of nearby tourist spots
 * effective time take to reach the spot considering the current traffic
 * user reviews/ratings
@@ -21,7 +21,7 @@ Factors considered:
 
 Features included in the app:
 
-* Provides an effective itinerary that helps the user to make the most out of the trip to rajasthan.
+* Provides an effective itinerary that helps the user to make the most out of the trip to Rajasthan.
 
 * Provides third party integrations like uber cab booking, hotel reservations.
 
